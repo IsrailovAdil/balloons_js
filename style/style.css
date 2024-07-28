@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:20px ;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+
+.col-4{
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.img{
+    width: 100%;
+object-fit: contain;
+}
+
+.box{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.bg-color{
+    background-color: #1eb81e;
+}
